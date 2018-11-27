@@ -2,15 +2,15 @@
 Your chance to explore Loops and Turtles!
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+         Aaron Wilkin, their colleagues, and Christina Rogers.
 """
 ########################################################################
-# TODO: 1.
+# DONE: 1.
 #   On Line 5 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ########################################################################
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -28,3 +28,28 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 #
 ########################################################################
+
+import rosegraphics as rg
+window = rg.TurtleWindow()
+
+j = 1
+bert = rg.SimpleTurtle('turtle')
+bert.pen = rg.Pen('red', 10)
+bert.speed = 1000
+ernie = rg.SimpleTurtle('turtle')
+
+for j in range(6):
+    for i in range(45):
+        bert.forward(j)
+        bert. left(5)
+bert.forward(100)
+for k in range(18):
+    bert.left(10)
+    bert.forward(10)
+bert.forward(100)
+
+ernie.right(90)
+ernie.forward(150)
+ernie.pen = rg.Pen('green', 10)
+for l in range(10):
+    ernie.forward(20)

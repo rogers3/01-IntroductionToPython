@@ -29,9 +29,9 @@ print(answer * 100)
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 
-import math;
-variable = 77 + math.cos(2.75);
-print(variable);
+import math
+variable = 77 + math.cos(2.75)
+print(variable)
 
 ###############################################################################
 # DONE: 3.
@@ -53,10 +53,10 @@ print(math.sqrt((44*81)+(4*math.cos(2))))
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 
-way1 = math.sqrt(2);
-way2 = 2**.5;
-print (way1);
-print (way2);
+way1 = math.sqrt(2)
+way2 = 2**.5
+print (way1)
+print (way2)
 
 
 ###############################################################################
@@ -100,19 +100,19 @@ print (way2);
 # of each of the above, change the above _TODO_ to DONE.
 ###############################################################################
 
-print(type(3.14));
-print(type("hello"));
-print(type('hello'));
-print(type('a b c'));
-print(type(3 + 3));
-print(type("3" + "3"));
-print(type(2 ** 100));
-print(type(2.0 ** 100));
-print(type(math.sin(8)));
-print(type(math.sin));
-print(type(print));
-print(type(math));
-print(type('math'));
+print(type(3.14))
+print(type("hello"))
+print(type('hello'))
+print(type('a b c'))
+print(type(3 + 3))
+print(type("3" + "3"))
+print(type(2 ** 100))
+print(type(2.0 ** 100))
+print(type(math.sin(8)))
+print(type(math.sin))
+print(type(print))
+print(type(math))
+print(type('math'))
 
 ###############################################################################
 #
