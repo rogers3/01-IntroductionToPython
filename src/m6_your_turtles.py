@@ -37,6 +37,7 @@ bert = rg.SimpleTurtle('turtle')
 bert.pen = rg.Pen('red', 10)
 bert.speed = 1000
 ernie = rg.SimpleTurtle('turtle')
+ernie.pen = rg.Pen('green', 10)
 
 for j in range(6):
     for i in range(45):
@@ -48,8 +49,9 @@ for k in range(18):
     bert.forward(10)
 bert.forward(100)
 
+ernie.pen_up()
 ernie.right(90)
 ernie.forward(150)
-ernie.pen = rg.Pen('green', 10)
+ernie.pen_down()
 for l in range(10):
     ernie.forward(20)
